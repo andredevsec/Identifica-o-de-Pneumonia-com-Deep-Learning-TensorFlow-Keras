@@ -21,8 +21,17 @@ A pneumonia é uma infecção comum e potencialmente grave dos pulmões, que pod
 Para executar o projeto, siga estas etapas:
 
 1. Abra o arquivo `predict.py`.
-2. Defina o caminho da imagem de raio-X que você deseja analisar.
+2. Defina o caminho da imagem de raio-X que você deseja analisar na variável `img_path`.
 3. Execute o script.
+
+```python
+# Caminho da imagem de raio-X a ser analisada
+  img_path = "caminho/para/sua/imagem.jpg"
+```
+Executar o script: 
+```bash
+python predict.py
+```
 
 ## Pré-requisitos
 
